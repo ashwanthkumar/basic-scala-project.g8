@@ -5,6 +5,15 @@ This is a [giter8](https://github.com/n8han/giter8) template for generating a ne
 * SBT configuration for `0.13.0`, `Scala 2.10.3`, and `ScalaTest 2.0` dependencies
 * project `name`, `organization` and `description` customizable as variables
 
+## Usage
+```
+// If you don't have g8 installed already
+$ brew install g8
+
+// Using the template
+$ g8 ashwanthkumar/basic-scala-project.g8
+```
+
 ## CHANGELOG
 
 ### 0.1.3
