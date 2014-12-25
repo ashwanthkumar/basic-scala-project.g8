@@ -9,7 +9,7 @@ object Build extends Build {
   val main = Project("$name$", file("."))
     .settings(organization := "$organization$",
       version := AppVersion,
-      libraryDependencies ++= appDependencies,
+      libraryDependencies ++= appDependencies
     )
 
   lazy val appDependencies = Seq(
